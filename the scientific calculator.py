@@ -147,7 +147,7 @@ while choice_1=='yes':
     while agn=='yes':
         choice_2 = input('what equation would you like to carry out?:')
         if choice_2=='a':
-                   print(\n addition())
+                   print(addition())
                    agn=input('would you like to solve some other equation?(yes/no):')
         elif choice_2=='b':
                    subtraction()
